@@ -20,3 +20,9 @@ Todas as mudanças relevantes deste portfólio serão documentadas aqui.
 
 - Remoção do Hero of Shield do portfólio público.
 - Manutenção do projeto para publicação dedicada em plataforma de mods.
+
+## [Curriculo tecnico]
+
+- Adicao de curriculo tecnico em `docs/resume.md`.
+- Adicao de estudos de caso para projetos selecionados.
+- Adicao de texto pronto para postagem profissional.

@@ -63,6 +63,16 @@ Antes de mover qualquer arquivo para este repositório:
 - Documentação focada em instalação, uso e manutenção.
 - Organização pensada para portfólio público.
 
+## Curriculo e estudos de caso
+
+- [Curriculo tecnico](docs/resume.md)
+- [Estudo de caso: Kagerov](docs/case-studies/kagerov.md)
+- [Estudo de caso: LootPanel](docs/case-studies/lootpanel.md)
+- [Estudo de caso: Betterchat](docs/case-studies/betterchat.md)
+- [Estudo de caso: MPersonagem](docs/case-studies/mpersonagem.md)
+- [Estudo de caso: Void Sentinel](docs/case-studies/void-sentinel.md)
+- [Postagem para LinkedIn/GitHub](docs/social-post.md)
+
 ## Perfil técnico
 
 - Desenvolvimento de scripts e automações.
