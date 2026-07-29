@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "saturationmod",
+  "version": "${version}",
+  "name": "Saturation Mod",
+  "description": "Mantenha sua fome e saúde sempre cheias.",
+  "authors": [
+    "DraxxLink"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.draxxlink.saturationmod.SaturationMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric": "*",
+    "minecraft": "1.21.8",
+    "java": ">=21"
+  }
+}

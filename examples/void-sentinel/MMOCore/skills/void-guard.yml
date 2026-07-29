@@ -1,0 +1,43 @@
+name: '&0Void &fGuard'
+lore:
+- '&7Levanta uma guarda preta e branca ao seu redor.'
+- '&cReduz dano recebido e explode quando a guarda quebra.'
+- ''
+- '&e{cooldown}s Cooldown'
+- '&9Custa {mana} {mana_name}'
+material: 'COAL:2117'
+duration:
+  base: 100
+  per-level: 10
+  min: 100
+  max: 160
+damage:
+  base: 6
+  per-level: 1
+  min: 6
+  max: 12
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+delay:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 22
+  per-level: 1
+  min: 22
+  max: 30
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 14
+  per-level: 0
+  min: 14
+  max: 14

@@ -1,0 +1,28 @@
+# Optional MMOItems/MythicCrucible-style item draft.
+# Ajuste categoria, material e sintaxe conforme seu setup.
+
+VOID_SENTINEL_AEGIS:
+  base:
+    material: SHIELD
+    name: '&0Void &cSentinel &fAegis'
+    lore:
+      - '&8Preto: vazio e defesa.'
+      - '&cVermelho: julgamento e colapso.'
+      - '&fBranco: escudo e sentinela.'
+      - ''
+      - '&7Arma conceito para a classe Void Sentinel.'
+      - '&7Use com Shield Throw, Void Guard e Event Horizon.'
+    tier: RARE
+    attack-damage: 5
+    attack-speed: 1.2
+    max-health: 4
+    armor: 2
+
+VOID_SENTINEL_CORE:
+  base:
+    material: ECHO_SHARD
+    name: '&0Void &cSentinel &fCore'
+    lore:
+      - '&7Um nucleo de singularidade preso em vidro branco.'
+      - '&7Pode ser usado como item de desbloqueio da classe.'
+    tier: EPIC

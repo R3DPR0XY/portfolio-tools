@@ -1,0 +1,40 @@
+name: MPersonagem
+version: '${project.version}'
+main: com.draxx.charactersystem.CharacterSystemPlugin
+api-version: '1.21'
+author: Draxx
+softdepend:
+  - PlaceholderAPI
+  - TAB
+commands:
+  personagem:
+    description: Abre o menu de personagens.
+    aliases: [personagens, char, chars, mp]
+    usage: /personagem
+  mpersonagem:
+    description: Comandos administrativos do MPersonagem.
+    aliases: [mpers, mper]
+    usage: /mpersonagem
+  id:
+    description: Abre o menu de identidade do jogador.
+    usage: /id [jogador]
+  pularano:
+    description: Avanca a idade de todos os personagens em 1 ano.
+    usage: /pularano
+permissions:
+  mpersonagem.use:
+    default: true
+  mpersonagem.admin:
+    default: op
+  mpersonagem.reload:
+    default: op
+  mpersonagem.pularano:
+    default: op
+  mpersonagem.reset:
+    default: op
+  mpersonagem.edit:
+    default: op
+  mpersonagem.view:
+    default: op
+  mpersonagem.setaltura:
+    default: op

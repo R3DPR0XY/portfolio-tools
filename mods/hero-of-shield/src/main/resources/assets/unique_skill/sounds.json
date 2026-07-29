@@ -1,0 +1,18 @@
+{
+  "perception_pulse": {
+    "sounds": [
+      {
+        "name": "unique_skill:perception_pulse",
+        "stream": false
+      }
+    ]
+  },
+  "activation": {
+    "sounds": [
+      {
+        "name": "unique_skill:activation",
+        "stream": false
+      }
+    ]
+  }
+}

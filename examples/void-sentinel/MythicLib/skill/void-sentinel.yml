@@ -1,0 +1,43 @@
+# Void Sentinel - MythicLib 1.7 custom skill registry
+# Coloque em plugins/MythicLib/skill/void-sentinel.yml
+# Sintaxe compativel com MythicLib/MMOLib 1.7.
+
+ORBITAL_RESONANCE:
+  mythicmobs-skill-id: VoidSentinel_OrbitalResonance
+  modifiers:
+    - duration
+
+SHIELD_THROW:
+  mythicmobs-skill-id: VoidSentinel_ShieldThrow
+  modifiers:
+    - damage
+    - duration
+    - slow-level
+
+VOID_GUARD:
+  mythicmobs-skill-id: VoidSentinel_VoidGuard
+  modifiers:
+    - duration
+    - damage
+
+SINGULARITY_CHAIN:
+  mythicmobs-skill-id: VoidSentinel_SingularityChain
+  modifiers:
+    - damage
+    - duration
+    - radius
+
+WARDENS_VERDICT:
+  mythicmobs-skill-id: VoidSentinel_WardensVerdict
+  modifiers:
+    - damage
+    - duration
+    - stun-duration
+
+EVENT_HORIZON:
+  mythicmobs-skill-id: VoidSentinel_EventHorizon
+  modifiers:
+    - damage
+    - duration
+    - radius
+    - stun-duration

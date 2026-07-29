@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "lootpanel",
+  "version": "${version}",
+  "name": "LootPanel",
+  "description": "Painel client-side elegante para visualizar loot de containers, busca inteligente e estimativas de fornalhas.",
+  "authors": [
+    "DraxLink",
+    "Jaspion"
+  ],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "icon": "assets/lootpanel/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.bmod.chestpanel.client.BmodClient"
+    ],
+    "modmenu": [
+      "com.bmod.chestpanel.client.LootPanelModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "lootpanel.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": ">=1.21.8 <1.22",
+    "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

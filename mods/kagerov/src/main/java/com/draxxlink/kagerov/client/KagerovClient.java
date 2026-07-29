@@ -1,0 +1,32 @@
+package com.draxxlink.kagerov.client;
+
+import com.draxxlink.kagerov.client.book.UniqueSkillBookReader;
+import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
+import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
+import net.minecraft.client.option.KeyBinding;
+import net.minecraft.client.util.InputUtil;
+import net.minecraft.text.Text;
+
+public final class KagerovClient implements ClientModInitializer {
+    private static KeyBinding openBookReaderKey;
+
+    @Override
+    public void onInitializeClient() {
+        openBookReaderKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+            "key.kagerov.open_book_reader",
+            InputUtil.Type.KEYSYM,
+            InputUtil.GLFW_KEY_RIGHT_BRACKET,
+            "category.kagerov"
+        ));
+
+        ClientTickEvents.END_CLIENT_TICK.register(client -> {
+            while (openBookReaderKey.wasPressed()) {
+                boolean opened = UniqueSkillBookReader.openHeldBook(client);
+                if (!opened && client.player != null) {
+                    client.player.sendMessage(Text.translatable("message.kagerov.book_reader.no_book"), true);
+                }
+            }
+        });
+    }
+}

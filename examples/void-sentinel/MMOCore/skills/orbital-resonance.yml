@@ -1,0 +1,38 @@
+name: '&fOrbital &cResonance'
+lore:
+- '&8Tres escudos orbitam voce e punem quem chega perto.'
+- '&7Defesa constante para segurar linha de frente.'
+- ''
+- '&e{cooldown}s Cooldown'
+- '&9Custa {mana} {mana_name}'
+material: 'COAL:2115'
+duration:
+  base: 80
+  per-level: 8
+  min: 80
+  max: 140
+timer:
+  base: 10
+  per-level: 0
+  min: 10
+  max: 10
+delay:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 10
+  per-level: 0
+  min: 10
+  max: 10
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 8
+  per-level: 0
+  min: 8
+  max: 8

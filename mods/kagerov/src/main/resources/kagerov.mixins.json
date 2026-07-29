@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "com.draxxlink.kagerov.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractSignEditScreenMixin",
+    "BookEditScreenMixin",
+    "BookScreenMixin",
+    "ChatScreenMixin",
+    "EditBoxAccessor",
+    "EditBoxInvoker",
+    "EditBoxWidgetAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+

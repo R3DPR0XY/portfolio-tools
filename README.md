@@ -10,6 +10,18 @@ Sou o **DraxxLink**, criador focado em ferramentas práticas, automações, mods
 
 Este repositório foi organizado para funcionar como vitrine pública: cada item deve explicar claramente o problema que resolve, como usar, quais tecnologias utiliza e qual é o estado atual do projeto.
 
+## Projetos publicados
+
+| Projeto | Tipo | Descrição |
+| --- | --- | --- |
+| [Hero of Shield](mods/hero-of-shield) | Mod Fabric | Mod client-side para Minecraft com HUD, indicadores, aura, overlays e recursos de percepção visual. |
+| [Kagerov](mods/kagerov) | Mod Fabric | Mod Fabric com sistemas client-side, interface, recursos visuais e estrutura própria para Minecraft. |
+| [LootPanel](mods/lootpanel) | Mod Fabric | Painel visual para containers, somando itens iguais e exibindo loot de forma mais clara. |
+| [Betterchat](mods/betterchat) | Mod Fabric | Mod de chat para Minecraft com interface e customizações client-side. |
+| [Saturation Mod](mods/saturationmod) | Mod Fabric | Mod experimental voltado a ajustes de saturação e feedback visual. |
+| [MPersonagem](plugins/mpersonagem) | Plugin Paper | Sistema de personagens para roleplay com menus, atributos, dados persistidos e integrações opcionais. |
+| [Void Sentinel](examples/void-sentinel) | Configuração de servidor | Pacote de design, balanceamento e configurações para conteúdo customizado de servidor. |
+
 ## Estrutura
 
 | Pasta | Conteúdo |
@@ -44,13 +56,13 @@ Antes de mover qualquer arquivo para este repositório:
 - Testar o comando principal do projeto.
 - Atualizar o `README.md` do projeto com instruções reais.
 
-## Destaques planejados
+## Destaques
 
-- Mods e customizações úteis.
-- Plugins e integrações reaproveitáveis.
-- Scripts de produtividade.
-- Automações documentadas passo a passo.
-- Estudos e exemplos técnicos.
+- Mods Fabric para Minecraft.
+- Plugins Paper para servidores.
+- Configurações e exemplos de sistemas customizados.
+- Documentação focada em instalação, uso e manutenção.
+- Organização pensada para portfólio público.
 
 ## Perfil técnico
 

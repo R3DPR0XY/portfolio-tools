@@ -1,0 +1,165 @@
+# Void Sentinel - MythicMobs skill layer
+# Visuals inspired by Watcher's Shield, adapted to vanilla particles + Samurai VFX.
+
+VoidSentinel_OrbitalResonance:
+  Skills:
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.crab_on;v=1.7;p=0.85} @self
+    - effect:sound{s=block.beacon.activate;v=0.75;p=0.55} @self
+    - effect:sound{s=entity.allay.hurt;v=0.55;p=0.55} @self
+    - effect:particles{particle=redstone;color=#050505;amount=34;hS=0.55;vS=0.65;y=1;speed=0;repeat=8;repeatinterval=2} @self
+    - effect:particles{particle=redstone;color=#b60012;amount=22;hS=0.75;vS=0.55;y=1;speed=0;repeat=8;repeatinterval=2} @self
+    - effect:particles{particle=redstone;color=#ffffff;amount=12;hS=0.95;vS=0.35;y=1;speed=0;repeat=8;repeatinterval=2} @self
+    - effect:particlering{particle=redstone;color=#b60012;radius=1.2;points=42;amount=1;hS=0;vS=0;y=0.15;repeat=6;repeatinterval=3} @self
+    - effect:particlering{particle=redstone;color=#ffffff;radius=1.75;points=56;amount=1;hS=0;vS=0;y=1.05;repeat=6;repeatinterval=3} @self
+    - effect:particles{p=reverse_portal;amount=28;hS=0.55;vS=0.45;speed=0.04;repeat=5;repeatinterval=3} @self
+    - effect:particles{p=white_ash;amount=18;hS=0.65;vS=0.45;speed=0.02;repeat=5;repeatinterval=3} @self
+    - heal{a=3} @self
+    - potion{type=ABSORPTION;duration=100;level=0} @self
+    - potion{type=DAMAGE_RESISTANCE;duration=45;level=0} @self
+
+VoidSentinel_ShieldThrow:
+  Skills:
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.cannon;v=2.2;p=0.9} @self
+    - effect:sound{s=item.trident.throw;v=1.0;p=0.55} @self
+    - effect:sound{s=entity.breeze.shoot;v=0.9;p=0.7} @self
+    - effect:particles{particle=redstone;color=#ffffff;amount=16;hS=0.1;vS=0.1;y=1.1;forwardOffset=1.1;speed=0;repeat=5;repeatinterval=1} @self
+    - effect:particles{particle=redstone;color=#b60012;amount=22;hS=0.12;vS=0.12;y=1.1;forwardOffset=2.0;speed=0;repeat=5;repeatinterval=1} @self
+    - effect:particles{particle=redstone;color=#050505;amount=28;hS=0.16;vS=0.16;y=1.1;forwardOffset=3.0;speed=0;repeat=5;repeatinterval=1} @self
+    - effect:particles{p=crit;amount=18;hS=0.12;vS=0.12;y=1;forwardOffset=3.8;speed=0.18;repeat=4;repeatinterval=1} @self
+    - summon{type=Shadow_Pierce;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=2.8;y=-0.4;sideOffset=0}
+    - summon{type=Shadow_Pierce;amount=1;radius=0;yRadius=0;onSurface=true;delay=4} @forward{f=4.2;y=-0.2;sideOffset=0}
+    - summon{type=Shadow_Pierce;amount=1;radius=0;yRadius=0;onSurface=true;delay=8} @forward{f=5.2;y=0;sideOffset=0}
+    - delay 7
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.stab1;v=1.6;p=0.9} @target
+    - effect:particles{particle=redstone;color=#b60012;amount=38;hS=0.45;vS=0.45;y=1;speed=0} @target
+    - effect:particles{particle=redstone;color=#ffffff;amount=18;hS=0.55;vS=0.55;y=1;speed=0} @target
+    - effect:particles{p=crit;amount=32;hS=0.35;vS=0.35;speed=0.2} @target
+    - damage{a=8;pkb=true} @target
+    - potion{type=SLOW;duration=60;level=1} @target
+    - potion{type=GLOWING;duration=60;level=0} @target
+    - pull{velocity=2.5} @target
+
+VoidSentinel_VoidGuard:
+  Skills:
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.grav;v=2.0;p=0.85} @self
+    - effect:sound{s=item.shield.block;v=1.2;p=0.55} @self
+    - effect:sound{s=block.conduit.activate;v=0.85;p=0.65} @self
+    - summon{type=Shadow_Slash_0;amount=1;radius=0;yRadius=0;onSurface=true} @forward{f=1.6;y=0.1;sideOffset=0}
+    - summon{type=Shadow_Slash_2;amount=1;radius=0;yRadius=0;onSurface=true;delay=5} @forward{f=1.6;y=0.1;sideOffset=0}
+    - summon{type=Ninja_Shadow_1;amount=1;radius=0;yRadius=0;onSurface=true;delay=2} @self
+    - summon{type=Ninja_Shadow_3;amount=1;radius=0;yRadius=0;onSurface=true;delay=8} @self
+    - effect:particlering{particle=redstone;color=#050505;radius=1.1;points=48;amount=1;hS=0;vS=0;y=0.2;repeat=20;repeatinterval=2} @self
+    - effect:particlering{particle=redstone;color=#b60012;radius=1.55;points=60;amount=1;hS=0;vS=0;y=0.75;repeat=20;repeatinterval=2} @self
+    - effect:particlering{particle=redstone;color=#ffffff;radius=2.0;points=72;amount=1;hS=0;vS=0;y=1.35;repeat=20;repeatinterval=2} @self
+    - effect:particles{p=enchanted_hit;amount=45;hS=1.1;vS=0.9;speed=0.03;repeat=8;repeatinterval=5} @self
+    - effect:particles{p=smoke;amount=32;hS=1.1;vS=0.7;speed=0.04;repeat=8;repeatinterval=5} @self
+    - effect:particles{p=white_ash;amount=34;hS=1.1;vS=0.8;speed=0.02;repeat=8;repeatinterval=5} @self
+    - potion{type=DAMAGE_RESISTANCE;duration=110;level=1} @self
+    - potion{type=ABSORPTION;duration=110;level=1} @self
+    - potion{type=SLOW;duration=30;level=0} @self
+    - delay 80
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.smash;v=2.1;p=0.85} @self
+    - effect:sound{s=item.mace.smash_ground;v=1.4;p=0.75} @self
+    - summon{type=Shadow_Ground_Pound;amount=1;radius=0;yRadius=0;onSurface=true} @self
+    - effect:particles{p=sonic_boom;amount=1;hS=0;vS=0;speed=0} @self
+    - effect:particlering{particle=redstone;color=#b60012;radius=3.6;points=96;amount=1;hS=0;vS=0;y=0.1} @self
+    - effect:particles{particle=redstone;color=#050505;amount=100;hS=2.0;vS=0.35;y=0.25;speed=0} @self
+    - effect:particles{p=crimson_spore;amount=85;hS=1.8;vS=0.35;speed=0.1} @self
+    - damage{a=6;pkb=true} @EIR{r=4}
+    - throw{velocity=4;velocityY=0.35} @EIR{r=4}
+
+VoidSentinel_SingularityChain:
+  Skills:
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.grav;v=2.4;p=0.82} @targetlocation
+    - effect:sound{s=block.beacon.deactivate;v=1.0;p=0.5} @targetlocation
+    - summon{type=Death_Mark;amount=1;radius=0;yRadius=0;onSurface=true} @targetlocation
+    - summon{type=Ninja_Shadow_1;amount=1;radius=0;yRadius=0;onSurface=true} @targetlocation
+    - summon{type=Ninja_Shadow_3;amount=1;radius=0;yRadius=0;onSurface=true;delay=6} @targetlocation
+    - effect:particlering{particle=redstone;color=#050505;radius=4.2;points=120;amount=1;hS=0;vS=0;y=0.15} @targetlocation
+    - effect:particlering{particle=redstone;color=#b60012;radius=3.1;points=100;amount=1;hS=0;vS=0;y=0.45;delay=5} @targetlocation
+    - effect:particlering{particle=redstone;color=#ffffff;radius=1.8;points=80;amount=1;hS=0;vS=0;y=0.95;delay=10} @targetlocation
+    - effect:particles{p=portal;amount=110;hS=1.6;vS=0.45;speed=0.12} @targetlocation
+    - effect:particles{p=smoke;amount=70;hS=1.25;vS=0.3;speed=0.05} @targetlocation
+    - pull{velocity=4.5;to=true} @EIR{r=6}
+    - potion{type=SLOW;duration=80;level=2} @EIR{r=6}
+    - damage{a=3;pkb=false} @EIR{r=6}
+    - delay 20
+    - effect:sound{s=entity.enderman.teleport;v=0.9;p=0.65} @targetlocation
+    - effect:particles{p=reverse_portal;amount=110;hS=1.25;vS=0.35;speed=0.1} @targetlocation
+    - effect:particles{particle=redstone;color=#b60012;amount=72;hS=1.0;vS=0.4;y=0.4;speed=0} @targetlocation
+    - pull{velocity=4.8;to=true} @EIR{r=6}
+    - damage{a=3;pkb=false} @EIR{r=6}
+    - delay 20
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.mark;v=1.8;p=0.9} @targetlocation
+    - effect:particles{p=dragon_breath;amount=65;hS=1.25;vS=0.35;speed=0.04} @targetlocation
+    - effect:particles{particle=redstone;color=#ffffff;amount=55;hS=0.8;vS=0.55;y=1.0;speed=0} @targetlocation
+    - pull{velocity=5.2;to=true} @EIR{r=6}
+    - damage{a=4;pkb=false} @EIR{r=6}
+
+VoidSentinel_WardensVerdict:
+  Skills:
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.smash;v=2.2;p=0.82} @self
+    - effect:sound{s=entity.warden.sonic_boom;v=0.85;p=0.75} @self
+    - effect:sound{s=item.mace.smash_ground_heavy;v=1.0;p=0.75} @self
+    - summon{type=Death_Mark;amount=1;radius=0;yRadius=0;onSurface=true} @self
+    - summon{type=Shadow_Ground_Pound;amount=1;radius=0;yRadius=0;onSurface=true;delay=4} @self
+    - effect:particlering{particle=redstone;color=#050505;radius=2.1;points=80;amount=1;hS=0;vS=0;y=0.15} @self
+    - effect:particlering{particle=redstone;color=#b60012;radius=3.0;points=100;amount=1;hS=0;vS=0;y=0.25;delay=3} @self
+    - effect:particlering{particle=redstone;color=#ffffff;radius=4.0;points=120;amount=1;hS=0;vS=0;y=0.35;delay=6} @self
+    - effect:particles{p=sculk_soul;amount=85;hS=1.5;vS=0.35;speed=0.07} @self
+    - effect:particles{p=crimson_spore;amount=70;hS=1.5;vS=0.35;speed=0.1} @self
+    - effect:particles{p=white_ash;amount=50;hS=1.35;vS=0.35;speed=0.05} @self
+    - damage{a=9;pkb=true} @EIR{r=4}
+    - throw{velocity=2.5;velocityY=0.65} @EIR{r=4}
+    - stun{d=25;f=true;ai=true;g=true;kb=false} @EIR{r=4}
+
+VoidSentinel_EventHorizon:
+  Skills:
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.ult_suck;v=4.0;p=1.0} @self
+    - effect:sound{s=entity.warden.roar;v=1.1;p=0.62} @self
+    - effect:sound{s=block.end_portal_spawn;v=0.6;p=0.75} @self
+    - summon{type=Shadow_Spin;amount=1;radius=0;yRadius=0;onSurface=true} @selflocation{y=-5}
+    - summon{type=Ninja_Shadow_1;amount=1;radius=0;yRadius=0;onSurface=true;delay=3} @self
+    - summon{type=Ninja_Shadow_2;amount=1;radius=0;yRadius=0;onSurface=true;delay=6} @self
+    - summon{type=Ninja_Shadow_3;amount=1;radius=0;yRadius=0;onSurface=true;delay=9} @self
+    - summon{type=Ninja_Shadow_4;amount=1;radius=0;yRadius=0;onSurface=true;delay=12} @self
+    - effect:particlering{particle=redstone;color=#050505;radius=5.2;points=150;amount=1;hS=0;vS=0;y=0.15;repeat=8;repeatinterval=5} @self
+    - effect:particlering{particle=redstone;color=#b60012;radius=3.7;points=130;amount=1;hS=0;vS=0;y=0.55;repeat=8;repeatinterval=5} @self
+    - effect:particlering{particle=redstone;color=#ffffff;radius=2.2;points=100;amount=1;hS=0;vS=0;y=1.25;repeat=8;repeatinterval=5} @self
+    - effect:particles{p=reverse_portal;amount=150;hS=3.1;vS=1.0;speed=0.1;repeat=4;repeatinterval=5} @self
+    - effect:particles{p=smoke;amount=120;hS=2.6;vS=0.7;speed=0.08;repeat=4;repeatinterval=5} @self
+    - effect:particles{p=dragon_breath;amount=70;hS=2.1;vS=0.6;speed=0.05;repeat=4;repeatinterval=5} @self
+    - pull{velocity=7;to=true} @EIR{r=8}
+    - potion{type=SLOW;duration=80;level=3} @EIR{r=8}
+    - delay 20
+    - effect:sound{s=watchers_shield_sfx:pixelbarrel.watchers_shield.ultimate;v=4.0;p=1.0} @self
+    - effect:sound{s=entity.generic.explode;v=1.1;p=0.75} @self
+    - stun{d=35;f=true;ai=true;g=true;kb=false} @EIR{r=7}
+    - effect:particles{p=sonic_boom;amount=1;hS=0;vS=0;speed=0} @self
+    - effect:particles{particle=redstone;color=#b60012;amount=150;hS=2.5;vS=0.65;y=0.5;speed=0} @self
+    - effect:particles{particle=redstone;color=#ffffff;amount=90;hS=2.1;vS=0.6;y=1.0;speed=0} @self
+    - effect:particles{particle=redstone;color=#050505;amount=180;hS=2.8;vS=0.75;y=0.7;speed=0} @self
+    - effect:particles{p=crimson_spore;amount=135;hS=2.5;vS=0.55;speed=0.12} @self
+    - damage{a=16;pkb=true} @EIR{r=7}
+    - throw{velocity=5;velocityY=0.55} @EIR{r=7}
+    - heal{a=8} @self
+    - potion{type=ABSORPTION;duration=120;level=2} @self
+
+Flow_State_OWNERCHECK:
+  Skills:
+    - delay 1
+
+Smoke_Bomb_Totem_Dummy_AURA:
+  Skills:
+    - delay 1
+
+Shadow_Cut:
+  Skills:
+    - equip{item=shadow_cut_1:0;delay=2}
+    - equip{item=shadow_cut_2:0;delay=3}
+    - equip{item=shadow_cut_3:0;delay=4}
+    - equip{item=shadow_cut_4:0;delay=5}
+    - equip{item=shadow_cut_5:0;delay=6}
+    - equip{item=shadow_cut_6:0;delay=7}
+    - equip{item=shadow_cut_7:0;delay=8}
+    - equip{item=shadow_cut_8:0;delay=9}

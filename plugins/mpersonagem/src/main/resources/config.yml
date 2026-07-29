@@ -1,0 +1,79 @@
+settings:
+  max-characters-per-player: 3
+  ask-on-first-join: true
+  update-tab-list-name: true
+  display-name-format: "%nome_completo%"
+  placeholder-no-character: "Sem personagem"
+
+resource-pack:
+  # Quando true, os menus de criacao usam um caractere customizado do resource pack.
+  # Ative o pack MPersonagem-Zombie-GUI no cliente para ver a textura.
+  enabled: true
+
+validation:
+  name:
+    min-length: 3
+    max-length: 16
+    # Regex simples e segura para nicks/RP. Permite letras, numeros e underline.
+    regex: "[A-Za-z0-9_]+"
+  surname:
+    min-length: 0
+    max-length: 16
+    regex: "[A-Za-z0-9_]+"
+  age:
+    min: 0
+    max: 150
+  description:
+    max-length: 80
+
+talents:
+  Sobrevivente:
+    material: IRON_SWORD
+    description:
+      - "&7Equilibrado para qualquer situacao."
+  Forte:
+    material: ANVIL
+    description:
+      - "&7Focado em resistencia e presenca fisica."
+  Agil:
+    material: FEATHER
+    description:
+      - "&7Focado em mobilidade e movimento."
+
+height:
+  min: 120
+  max: 230
+  default: 170
+  # Valores em centimetros. Cada ponto acima/abaixo da altura de referencia aplica os modificadores abaixo.
+  reference: 170
+
+attributes:
+  health:
+    base: 20.0
+    per-centimeter: 0.10
+    min: 10.0
+    max: 40.0
+  speed:
+    base: 0.10
+    per-centimeter: -0.00035
+    min: 0.07
+    max: 0.14
+  entity-interaction-range:
+    base: 3.0
+    per-centimeter: 0.006
+    min: 2.2
+    max: 4.0
+  scale:
+    enabled: true
+    base: 1.0
+    per-centimeter: 0.004
+    min: 0.75
+    max: 1.25
+
+menu:
+  title: "Personagens"
+  id-title: "Identidade"
+  character-custom-model-data: 1001
+  create-custom-model-data: 1002
+  edit-custom-model-data: 1003
+  delete-custom-model-data: 1004

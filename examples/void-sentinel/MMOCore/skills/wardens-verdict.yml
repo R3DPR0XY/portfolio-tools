@@ -1,0 +1,48 @@
+name: '&fWarden''s &cVerdict'
+lore:
+- '&7Um julgamento sonico atravessa o alvo.'
+- '&cDano alto com stun curto para abrir combate.'
+- ''
+- '&e{cooldown}s Cooldown'
+- '&9Custa {mana} {mana_name}'
+material: 'COAL:2114'
+duration:
+  base: 25
+  per-level: 3
+  min: 25
+  max: 40
+damage:
+  base: 10
+  per-level: 1.8
+  min: 10
+  max: 22
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+delay:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 24
+  per-level: 1
+  min: 24
+  max: 32
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 12
+  per-level: 0
+  min: 12
+  max: 12
+stun-duration:
+  base: 25
+  per-level: 2
+  min: 25
+  max: 35

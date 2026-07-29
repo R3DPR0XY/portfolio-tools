@@ -1,0 +1,48 @@
+name: '&8Singularity &cChain'
+lore:
+- '&7Correntes do vazio puxam inimigos para o centro.'
+- '&fControle forte para preparar o burst da classe.'
+- ''
+- '&e{cooldown}s Cooldown'
+- '&9Custa {mana} {mana_name}'
+material: 'COAL:2119'
+duration:
+  base: 80
+  per-level: 8
+  min: 80
+  max: 120
+damage:
+  base: 4
+  per-level: 0.8
+  min: 4
+  max: 9
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+delay:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 28
+  per-level: 1
+  min: 28
+  max: 36
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 16
+  per-level: 0
+  min: 16
+  max: 16
+radius:
+  base: 6
+  per-level: 0.5
+  min: 6
+  max: 8

@@ -1,0 +1,53 @@
+name: '&0Event &cHorizon'
+lore:
+- '&8Ultimate do Void Sentinel.'
+- '&7Puxa tudo, aplica stun e detona uma explosao vermelha/branca.'
+- ''
+- '&e{cooldown}s Cooldown'
+- '&9Custa {mana} {mana_name}'
+material: 'COAL:2116'
+duration:
+  base: 80
+  per-level: 10
+  min: 80
+  max: 120
+damage:
+  base: 16
+  per-level: 3
+  min: 16
+  max: 28
+timer:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+delay:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+mana:
+  base: 60
+  per-level: 2
+  min: 60
+  max: 75
+stamina:
+  base: 0
+  per-level: 0
+  min: 0
+  max: 0
+cooldown:
+  base: 55
+  per-level: 0
+  min: 55
+  max: 55
+radius:
+  base: 8
+  per-level: 0.5
+  min: 8
+  max: 10
+stun-duration:
+  base: 35
+  per-level: 3
+  min: 35
+  max: 50

@@ -1,0 +1,90 @@
+name: '&0Void &cSentinel'
+max-level: 50
+experience:
+  base: 20
+  per-level: 15
+
+exp-table: class_exp_table
+
+skill-trees:
+  - void-sentinel
+
+skill-slots:
+  1:
+    name: "&cVoid Slot I"
+    unlocked-by-default: true
+    lore: []
+  2:
+    name: "&cVoid Slot II"
+    unlocked-by-default: true
+    lore: []
+  3:
+    name: "&cVoid Slot III"
+    unlocked-by-default: true
+    lore: []
+  4:
+    name: "&cVoid Slot IV"
+    unlocked-by-default: true
+    lore: []
+  5:
+    name: "&cVoid Slot V"
+    unlocked-by-default: true
+    lore: []
+  6:
+    name: "&cVoid Slot VI"
+    unlocked-by-default: true
+    lore: []
+
+mana:
+  name: Energia do Vazio
+  char: '*'
+  color:
+    full: DARK_RED
+    half: WHITE
+    empty: DARK_GRAY
+
+attributes:
+  max-health:
+    base: 28
+    per-level: 0.35
+  max-mana:
+    base: 120
+    per-level: 2
+  mana-regeneration:
+    base: 2
+    per-level: 0.03
+  armor:
+    base: 3
+    per-level: 0.1
+  knockback-resistance:
+    base: 0.05
+    per-level: 0.002
+
+skills:
+  ORBITAL_RESONANCE:
+    level: 1
+    max-level: 5
+    trigger: TIMER
+    timer: 10
+  SHIELD_THROW:
+    level: 1
+    max-level: 5
+  VOID_GUARD:
+    level: 4
+    max-level: 5
+  SINGULARITY_CHAIN:
+    level: 8
+    max-level: 5
+  WARDENS_VERDICT:
+    level: 12
+    max-level: 5
+  EVENT_HORIZON:
+    level: 25
+    max-level: 3
+
+display:
+  name: '&0Void &cSentinel'
+  item: STONE_SWORD:2037
+  lore:
+    - '&8Tank/control de escudos orbitais.'
+    - '&cPuxa&7, &fstuna&7, mitiga dano e explode em area.'

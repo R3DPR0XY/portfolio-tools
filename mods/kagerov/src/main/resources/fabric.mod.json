@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "kagerov",
+  "version": "${version}",
+  "name": "Kagerov",
+  "description": "Nem todo poder nasce do combate.\nAlguns comecam com uma ideia... e ganham forma atraves da palavra.",
+  "icon": "assets/kagerov/icon.png",
+  "authors": [
+    "DraxxLink"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.draxxlink.kagerov.Kagerov"
+    ],
+    "client": [
+      "com.draxxlink.kagerov.client.KagerovClient"
+    ]
+  },
+  "mixins": [
+    "kagerov.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric": "*",
+    "minecraft": "1.21.8",
+    "java": ">=21"
+  }
+}
+

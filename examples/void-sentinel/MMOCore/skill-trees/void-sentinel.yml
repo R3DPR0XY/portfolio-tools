@@ -1,0 +1,113 @@
+﻿id: 'void-sentinel'
+name: '&0Void &cSentinel &fBindings'
+type: CUSTOM
+item: 'NETHER_STAR'
+lore:
+  - '&8Arvore para preparar e bindar as skills do Void Sentinel.'
+  - '&7Clique nos nodos em ordem para ativar os slots.'
+max-point-spent: 5
+
+nodes:
+  shield_throw:
+    name: '&cShield &fThrow &7[Slot 1]'
+    root: true
+    coordinates:
+      x: -2
+      y: 0
+    experience-table:
+      bind_slot:
+        triggers:
+          - 'unlock_skill{skill="SHIELD_THROW"}'
+          - 'levelup_skill{skill="SHIELD_THROW";amount=4}'
+          - 'bind_skill{skill="SHIELD_THROW";slot=1}'
+    lores:
+      0:
+        - '&7Desbloqueia e binda &cShield Throw&7 no slot &f1&7.'
+        - '&8Use: /mmocore cast first %player% 1'
+      1:
+        - '&aSlot 1 pronto: &cShield Throw'
+
+  void_guard:
+    name: '&0Void &fGuard &7[Slot 2]'
+    coordinates:
+      x: -1
+      y: 0
+    parents:
+      strong:
+        shield_throw: 1
+    experience-table:
+      bind_slot:
+        triggers:
+          - 'unlock_skill{skill="VOID_GUARD"}'
+          - 'levelup_skill{skill="VOID_GUARD";amount=4}'
+          - 'bind_skill{skill="VOID_GUARD";slot=2}'
+    lores:
+      0:
+        - '&7Desbloqueia e binda &0Void &fGuard&7 no slot &f2&7.'
+        - '&8Use: /mmocore cast first %player% 2'
+      1:
+        - '&aSlot 2 pronto: &0Void &fGuard'
+
+  singularity_chain:
+    name: '&8Singularity &cChain &7[Slot 3]'
+    coordinates:
+      x: 0
+      y: 0
+    parents:
+      strong:
+        void_guard: 1
+    experience-table:
+      bind_slot:
+        triggers:
+          - 'unlock_skill{skill="SINGULARITY_CHAIN"}'
+          - 'levelup_skill{skill="SINGULARITY_CHAIN";amount=4}'
+          - 'bind_skill{skill="SINGULARITY_CHAIN";slot=3}'
+    lores:
+      0:
+        - '&7Desbloqueia e binda &8Singularity &cChain&7 no slot &f3&7.'
+        - '&8Use: /mmocore cast first %player% 3'
+      1:
+        - '&aSlot 3 pronto: &8Singularity &cChain'
+
+  wardens_verdict:
+    name: '&fWarden''s &cVerdict &7[Slot 4]'
+    coordinates:
+      x: 1
+      y: 0
+    parents:
+      strong:
+        singularity_chain: 1
+    experience-table:
+      bind_slot:
+        triggers:
+          - 'unlock_skill{skill="WARDENS_VERDICT"}'
+          - 'levelup_skill{skill="WARDENS_VERDICT";amount=4}'
+          - 'bind_skill{skill="WARDENS_VERDICT";slot=4}'
+    lores:
+      0:
+        - '&7Desbloqueia e binda &fWarden''s &cVerdict&7 no slot &f4&7.'
+        - '&8Use: /mmocore cast first %player% 4'
+      1:
+        - '&aSlot 4 pronto: &fWarden''s &cVerdict'
+
+  event_horizon:
+    name: '&0Event &cHorizon &7[Slot 5]'
+    coordinates:
+      x: 2
+      y: 0
+    parents:
+      strong:
+        wardens_verdict: 1
+    experience-table:
+      bind_slot:
+        triggers:
+          - 'unlock_skill{skill="EVENT_HORIZON"}'
+          - 'levelup_skill{skill="EVENT_HORIZON";amount=2}'
+          - 'bind_skill{skill="EVENT_HORIZON";slot=5}'
+    lores:
+      0:
+        - '&7Desbloqueia e binda &0Event &cHorizon&7 no slot &f5&7.'
+        - '&8Use: /mmocore cast first %player% 5'
+      1:
+        - '&aSlot 5 pronto: &0Event &cHorizon'
+
