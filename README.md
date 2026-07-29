@@ -14,7 +14,6 @@ Este repositório foi organizado para funcionar como vitrine pública: cada item
 
 | Projeto | Tipo | Descrição |
 | --- | --- | --- |
-| [Hero of Shield](mods/hero-of-shield) | Mod Fabric | Mod client-side para Minecraft com HUD, indicadores, aura, overlays e recursos de percepção visual. |
 | [Kagerov](mods/kagerov) | Mod Fabric | Mod Fabric com sistemas client-side, interface, recursos visuais e estrutura própria para Minecraft. |
 | [LootPanel](mods/lootpanel) | Mod Fabric | Painel visual para containers, somando itens iguais e exibindo loot de forma mais clara. |
 | [Betterchat](mods/betterchat) | Mod Fabric | Mod de chat para Minecraft com interface e customizações client-side. |

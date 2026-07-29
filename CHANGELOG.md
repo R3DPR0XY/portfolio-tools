@@ -15,3 +15,8 @@ Todas as mudanças relevantes deste portfólio serão documentadas aqui.
 - Publicação do plugin Paper MPersonagem.
 - Publicação do pacote de configuração Void Sentinel.
 - Atualização do catálogo principal do portfólio.
+
+## [Ajuste de publicação]
+
+- Remoção do Hero of Shield do portfólio público.
+- Manutenção do projeto para publicação dedicada em plataforma de mods.
