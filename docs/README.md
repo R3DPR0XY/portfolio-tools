@@ -13,4 +13,5 @@ Use esta pasta para explicar arquitetura, escolhas técnicas, aprendizados e pro
 - [Estudo de caso: LootPanel](case-studies/lootpanel.md)
 - [Estudo de caso: Betterchat](case-studies/betterchat.md)
 - [Estudo de caso: MPersonagem](case-studies/mpersonagem.md)
+- [Estudo de caso: CreditsRewards](case-studies/creditsrewards.md)
 - [Estudo de caso: Void Sentinel](case-studies/void-sentinel.md)

@@ -19,6 +19,7 @@ Este repositório foi organizado para funcionar como vitrine pública: cada item
 | [Betterchat](mods/betterchat) | Mod Fabric | Mod de chat para Minecraft com interface e customizações client-side. |
 | [Saturation Mod](mods/saturationmod) | Mod Fabric | Mod experimental voltado a ajustes de saturação e feedback visual. |
 | [MPersonagem](plugins/mpersonagem) | Plugin Paper | Sistema de personagens para roleplay com menus, atributos, dados persistidos e integrações opcionais. |
+| [CreditsRewards](plugins/creditsrewards) | Plugin Paper comercial | Sistema fechado de creditos, missoes, recompensas, lojas via NPC e persistencia SQLite/MySQL. |
 | [Void Sentinel](examples/void-sentinel) | Configuração de servidor | Pacote de design, balanceamento e configurações para conteúdo customizado de servidor. |
 
 ## Estrutura
@@ -70,6 +71,7 @@ Antes de mover qualquer arquivo para este repositório:
 - [Estudo de caso: LootPanel](docs/case-studies/lootpanel.md)
 - [Estudo de caso: Betterchat](docs/case-studies/betterchat.md)
 - [Estudo de caso: MPersonagem](docs/case-studies/mpersonagem.md)
+- [Estudo de caso: CreditsRewards](docs/case-studies/creditsrewards.md)
 - [Estudo de caso: Void Sentinel](docs/case-studies/void-sentinel.md)
 - [Postagem para LinkedIn/GitHub](docs/social-post.md)
 
@@ -83,4 +85,4 @@ Antes de mover qualquer arquivo para este repositório:
 
 ## Licença
 
-Distribuído sob a licença MIT. Veja [LICENSE](LICENSE).
+Distribuído sob a licença MIT, exceto projetos ou pastas com licença própria indicada. Veja [LICENSE](LICENSE).

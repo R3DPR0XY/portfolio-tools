@@ -18,6 +18,7 @@ Entre os projetos publicados estao:
 
 - Mods Fabric com interfaces client-side, mixins, renderizacao e recursos visuais.
 - Plugin Paper para sistema de personagens de roleplay, com comandos, menus, permissoes e persistencia.
+- Plugin Paper comercial com economia, missoes, recompensas, lojas via NPC e persistencia.
 - Pacote de configuracao de servidor RPG com habilidades, balanceamento e documentacao.
 - Estudos de caso explicando problema, solucao e pontos tecnicos de cada projeto.
 
@@ -34,4 +35,3 @@ Tecnologias usadas:
 - Git e GitHub
 
 Portfolio: https://github.com/DraxxLink/portfolio-tools
-

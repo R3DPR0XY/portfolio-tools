@@ -26,3 +26,9 @@ Todas as mudanças relevantes deste portfólio serão documentadas aqui.
 - Adicao de curriculo tecnico em `docs/resume.md`.
 - Adicao de estudos de caso para projetos selecionados.
 - Adicao de texto pronto para postagem profissional.
+
+## [CreditsRewards comercial]
+
+- Adicao do CreditsRewards como vitrine publica de plugin comercial.
+- Adicao de licenca comercial especifica para o projeto.
+- Adicao de estudo de caso e orientacoes de licenciamento comercial.
