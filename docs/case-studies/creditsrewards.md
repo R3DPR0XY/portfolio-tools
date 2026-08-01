@@ -1,50 +1,49 @@
-# Estudo de Caso - CreditsRewards
+# Estudo De Caso - CreditsRewards
 
 ## Resumo
 
-CreditsRewards e um plugin Paper comercial para servidores Minecraft. O projeto combina economia propria, missoes configuraveis, recompensas, lojas via NPC, estoque, historico de transacoes e persistencia em SQLite ou MySQL.
+CreditsRewards é um plugin Paper comercial para servidores Minecraft. O projeto combina economia própria, missões configuráveis, recompensas, lojas via NPC, estoque, histórico de transações e persistência em SQLite ou MySQL.
 
 ## Problema
 
-Servidores de RPG e roleplay frequentemente precisam de uma economia controlada que nao dependa apenas de dinheiro generico. Tambem precisam de missoes, lojas, recompensas e progresso persistente sem depender de varios plugins desconectados.
+Servidores de RPG e roleplay frequentemente precisam de uma economia controlada que não dependa apenas de dinheiro genérico. Também precisam de missões, lojas, recompensas e progresso persistente sem depender de vários plugins desconectados.
 
-## Solucao
+## Solução
 
 O plugin centraliza o fluxo de progresso:
 
-- Jogadores completam missoes.
-- Missoes geram creditos e recompensas.
-- Creditos sao usados em lojas de NPC.
-- Compras e saldos sao persistidos.
-- Administradores controlam economia, estoque, missoes e validacao.
+- Jogadores completam missões.
+- Missões geram créditos e recompensas.
+- Créditos são usados em lojas de NPC.
+- Compras e saldos são persistidos.
+- Administradores controlam economia, estoque, missões e validação.
 
-## Pontos tecnicos
+## Pontos Técnicos
 
 - Plugin Paper com Java 21.
-- Persistencia em SQLite ou MySQL.
-- Configuracao por YAML.
-- Integracao com Citizens para lojas via NPC.
+- Persistência em SQLite ou MySQL.
+- Configuração por YAML.
+- Integração com Citizens para lojas via NPC.
 - Suporte opcional a Nexo para itens customizados.
 - Suporte opcional a PlaceholderAPI.
 - Sistema administrativo de comandos.
-- Historico de transacoes e logs.
+- Histórico de transações e logs.
 - Estrutura preparada para servidor real.
 
-## Decisao de publicacao
+## Decisão De Publicação
 
-CreditsRewards foi tratado como projeto comercial. Por isso, o portfolio publica apenas a documentacao de produto e o estudo de caso. O codigo-fonte, builds e configuracoes completas devem permanecer privados.
+CreditsRewards foi tratado como projeto comercial. Por isso, o portfólio publica apenas a documentação de produto e o estudo de caso. O código-fonte, builds e configurações completas devem permanecer privados.
 
-## O que demonstra
+## O Que Demonstra
 
 - Desenvolvimento backend para servidor.
 - Modelagem de economia e progresso.
-- Persistencia de dados.
-- Integracao entre plugins.
+- Persistência de dados.
+- Integração entre plugins.
 - Design de comandos administrativos.
 - Pensamento de produto comercial.
-- Separacao entre portfolio publico e propriedade intelectual privada.
+- Separação entre portfólio público e propriedade intelectual privada.
 
 ## Caminho
 
 [plugins/creditsrewards](../../plugins/creditsrewards)
-

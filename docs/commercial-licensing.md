@@ -1,37 +1,36 @@
 # Licenciamento Comercial
 
-Alguns projetos deste portfolio podem ser apresentados apenas como vitrine tecnica, sem liberacao de codigo-fonte, builds ou configuracoes completas.
+Alguns projetos deste portfólio podem ser apresentados apenas como vitrine técnica, sem liberação de código-fonte, builds ou configurações completas.
 
-## Quando manter fechado
+## Quando Manter Fechado
 
 Mantenha um projeto fechado quando:
 
-- Voce quer vender licencas de uso.
-- Voce quer cobrar por instalacao, suporte ou customizacao.
-- O codigo contem logica de negocio valiosa.
-- O projeto foi feito para um servidor especifico.
-- A publicacao do source facilitaria copia direta.
+- Você quer vender licenças de uso.
+- Você quer cobrar por instalação, suporte ou customização.
+- O código contém lógica de negócio valiosa.
+- O projeto foi feito para um servidor específico.
+- A publicação do source facilitaria cópia direta.
 
-## Estrategia recomendada
+## Estratégia Recomendada
 
 - Publicar README, screenshots, recursos e estudo de caso.
-- Manter o codigo-fonte em repositorio privado.
+- Manter o código-fonte em repositório privado.
 - Distribuir apenas `.jar` compilado para clientes licenciados.
-- Usar ofuscacao se fizer sentido.
+- Usar ofuscação se fizer sentido.
 - Incluir termos de uso claros.
-- Registrar changelog e versoes.
+- Registrar changelog e versões.
 - Definir escopo de suporte.
 
-## Sobre ofuscacao
+## Sobre Ofuscação
 
-Ofuscacao ajuda a dificultar leitura e modificacao do bytecode, mas nao torna o plugin impossivel de copiar. Ela deve ser vista como uma camada extra, nao como protecao principal.
+Ofuscação ajuda a dificultar leitura e modificação do bytecode, mas não torna o plugin impossível de copiar. Ela deve ser vista como uma camada extra, não como proteção principal.
 
-Protecao real vem de:
+Proteção real vem de:
 
-- Licenca comercial.
-- Repositorio privado.
-- Distribuicao controlada.
+- Licença comercial.
+- Repositório privado.
+- Distribuição controlada.
 - Contrato ou termo de uso.
 - Marca/autoria bem apresentada.
-- Suporte e atualizacoes como diferencial.
-
+- Suporte e atualizações como diferencial.

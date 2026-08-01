@@ -1,26 +1,25 @@
-# Licenca Comercial - CreditsRewards
+# Licença Comercial - CreditsRewards
 
 Copyright (c) 2026 DraxxLink
 
-Este projeto e disponibilizado publicamente apenas como vitrine tecnica. O codigo-fonte, builds, configuracoes completas e versoes utilizaveis do plugin CreditsRewards nao estao licenciados pela licenca MIT deste repositorio.
+Este projeto é disponibilizado publicamente apenas como vitrine técnica. O código-fonte, builds, configurações completas e versões utilizáveis do plugin CreditsRewards não estão licenciados pela licença MIT deste repositório.
 
-## Nao permitido sem autorizacao
+## Não Permitido Sem Autorização
 
-- Usar o plugin em servidor publico ou privado.
-- Editar, modificar ou criar versoes derivadas.
+- Usar o plugin em servidor público ou privado.
+- Editar, modificar ou criar versões derivadas.
 - Redistribuir ou revender builds.
 - Compartilhar arquivos `.jar` privados.
-- Copiar codigo-fonte ou arquitetura interna.
+- Copiar código-fonte ou arquitetura interna.
 - Fazer engenharia reversa para recriar o produto.
-- Remover creditos, autoria ou avisos de licenca.
+- Remover créditos, autoria ou avisos de licença.
 
-## Permitido neste repositorio
+## Permitido Neste Repositório
 
-- Ler a documentacao publica.
-- Avaliar o projeto como item de portfolio.
-- Entrar em contato para licenciamento, suporte ou customizacao.
+- Ler a documentação pública.
+- Avaliar o projeto como item de portfólio.
+- Entrar em contato para licenciamento, suporte ou customização.
 
-## Licenciamento sob demanda
+## Licenciamento Sob Demanda
 
-O uso comercial, edicao, suporte, instalacao ou customizacao do CreditsRewards deve ser negociado separadamente com o autor.
-
+O uso comercial, edição, suporte, instalação ou customização do CreditsRewards deve ser negociado separadamente com o autor.

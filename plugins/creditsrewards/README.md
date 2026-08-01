@@ -1,29 +1,29 @@
 # CreditsRewards
 
-Plugin Paper comercial para servidores Minecraft com sistema de creditos, missoes, recompensas, lojas via NPC e persistencia em banco de dados.
+Plugin Paper comercial para servidores Minecraft com sistema de créditos, missões, recompensas, lojas via NPC e persistência em banco de dados.
 
 ## Status
 
-Projeto fechado/comercial. Este diretorio e uma vitrine publica do produto; o codigo-fonte, builds e configuracoes completas nao estao incluidos neste repositorio.
+Projeto fechado/comercial. Este diretório é uma vitrine pública do produto; o código-fonte, builds e configurações completas não estão incluídos neste repositório.
 
-## Visao geral
+## Visão Geral
 
-CreditsRewards foi criado para servidores que precisam de uma economia propria baseada em progresso, missoes e recompensas controladas. O sistema centraliza creditos, lojas, estoque, missoes, feedback visual e integracoes opcionais em um plugin unico.
+CreditsRewards foi criado para servidores que precisam de uma economia própria baseada em progresso, missões e recompensas controladas. O sistema centraliza créditos, lojas, estoque, missões, feedback visual e integrações opcionais em um plugin único.
 
-## Recursos principais
+## Recursos Principais
 
-- Sistema de creditos proprio.
-- Missoes configuraveis por YAML.
+- Sistema de créditos próprio.
+- Missões configuráveis por YAML.
 - Recompensas por progresso.
 - Lojas abertas por NPC Citizens.
 - Estoque global e limite por jogador.
-- Historico de transacoes.
-- Persistencia em SQLite ou MySQL.
+- Histórico de transações.
+- Persistência em SQLite ou MySQL.
 - Feedback por sons, ActionBar e BossBar.
 - Suporte opcional a Nexo.
 - Suporte opcional a PlaceholderAPI.
 
-## Tipos de missoes
+## Tipos De Missões
 
 - `KILL`
 - `BUILD`
@@ -32,7 +32,7 @@ CreditsRewards foi criado para servidores que precisam de uma economia propria b
 - `FISH`
 - `DELIVER`
 
-## Exemplos de comandos
+## Exemplos De Comandos
 
 Jogador:
 
@@ -42,7 +42,7 @@ Jogador:
 /missoes
 ```
 
-Administracao:
+Administração:
 
 ```text
 /creditos admin give <jogador> <quantia>
@@ -70,25 +70,25 @@ Opcionais:
 
 ## Licenciamento
 
-Este plugin nao e distribuido como software livre neste repositorio.
+Este plugin não é distribuído como software livre neste repositório.
 
-O uso, edicao, redistribuicao, revenda, copia do codigo-fonte, engenharia reversa e criacao de versoes derivadas dependem de autorizacao/licenca comercial separada.
+O uso, edição, redistribuição, revenda, cópia do código-fonte, engenharia reversa e criação de versões derivadas dependem de autorização/licença comercial separada.
 
-## Por que o codigo nao esta publico
+## Por Que O Código Não Está Público
 
-CreditsRewards e tratado como produto comercial. Por isso, este repositorio mostra a capacidade tecnica, o escopo e a documentacao do projeto, mas preserva o codigo-fonte e os builds para distribuicao privada/licenciada.
+CreditsRewards é tratado como produto comercial. Por isso, este repositório mostra a capacidade técnica, o escopo e a documentação do projeto, mas preserva o código-fonte e os builds para distribuição privada/licenciada.
 
-## Distribuicao
+## Distribuição
 
-Para venda ou entrega privada, o formato recomendado e:
+Para venda ou entrega privada, o formato recomendado é:
 
 - `.jar` compilado.
-- Termos de licenca comercial.
-- Changelog por versao.
-- Guia de instalacao.
-- Guia de configuracao.
+- Termos de licença comercial.
+- Changelog por versão.
+- Guia de instalação.
+- Guia de configuração.
 - Canal de suporte definido.
 
-## Observacao
+## Observação
 
-Ofuscacao pode dificultar copia direta, mas nao substitui licenca, contrato, controle de distribuicao e suporte profissional.
+Ofuscação pode dificultar cópia direta, mas não substitui licença, contrato, controle de distribuição e suporte profissional.
