@@ -2,6 +2,8 @@
 
 [Versao em portugues](README.md)
 
+[![Sponsor](https://img.shields.io/badge/Sponsor-R3DPR0XY-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/R3DPR0XY)
+
 Technical portfolio with mods, plugins, scripts, automations, and experiments created to solve real problems, speed up workflows, and demonstrate practical development ability.
 
 ## About
@@ -102,3 +104,7 @@ See examples in [docs/forge-maps](docs/forge-maps).
 ## License
 
 Distributed under the MIT license, except for projects or folders with their own stated license. See [LICENSE](LICENSE).
+
+## Support
+
+If these projects, examples, or Forge Maps help your work, you can support development through [GitHub Sponsors](https://github.com/sponsors/R3DPR0XY).
