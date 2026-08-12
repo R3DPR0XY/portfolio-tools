@@ -1,36 +1,20 @@
 # Changelog
 
-[English version](CHANGELOG_EN.md)
+## v0.1.0 - R3DPR0XY Forge Maps
 
-Todas as mudanças relevantes deste portfólio serão documentadas aqui.
+Initial public release of the R3DPR0XY Forge Maps format.
 
-## [Inicial]
+### Added
 
-- Criação da estrutura base do portfólio.
-- Adição de licença MIT.
-- Adição de checklist de segurança.
-- Adição de modelo para documentação de projetos.
-
-## [Projetos iniciais]
-
-- Publicação de mods Fabric selecionados.
-- Publicação do plugin Paper MPersonagem.
-- Publicação do pacote de configuração Void Sentinel.
-- Atualização do catálogo principal do portfólio.
-
-## [Ajuste de publicação]
-
-- Remoção do Hero of Shield do portfólio público.
-- Manutenção do projeto para publicação dedicada em plataforma de mods.
-
-## [Curriculo tecnico]
-
-- Adicao de curriculo tecnico em `docs/resume.md`.
-- Adicao de estudos de caso para projetos selecionados.
-- Adicao de texto pronto para postagem profissional.
-
-## [CreditsRewards comercial]
-
-- Adicao do CreditsRewards como vitrine publica de plugin comercial.
-- Adicao de licenca comercial especifica para o projeto.
-- Adicao de estudo de caso e orientacoes de licenciamento comercial.
+- `r3dpr0xy-forge-maps` reusable Codex skill.
+- Release Rail format for CI/CD and release workflows.
+- Runtime Core format for Paper/plugin runtime systems.
+- Mod Circuit format for Fabric mod architecture showcases.
+- Showcase Board format for public portfolio snapshots.
+- First GitHub Actions Release Rail example.
+- Kagerov Mod Circuit example.
+- MPersonagem Runtime Core example.
+- Portfolio Tools Showcase Board example.
+- Tag-based release workflow for `v*` versions.
+- Forge Maps skill ZIP packaging in release artifacts.
+- Backlog for future R3DPR0XY product/showcase ideas.

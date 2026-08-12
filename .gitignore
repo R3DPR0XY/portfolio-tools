@@ -36,6 +36,7 @@ temp/
 node_modules/
 .gradle/
 dist/
+dist-local-check/
 build/
 target/
 out/

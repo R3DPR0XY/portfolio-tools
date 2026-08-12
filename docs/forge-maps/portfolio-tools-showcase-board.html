@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Tools Showcase Board</title>
+  <style>
+    :root { --void:#0f1117; --panel:#f4f1ea; --steel:#475569; --signal:#e23d28; --reactor:#00a6a6; --ash:#d7d1c5; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; padding:48px 28px; background:var(--panel); color:var(--void); font-family:Inter, ui-sans-serif, system-ui, sans-serif; }
+    main { width:min(1120px,100%); }
+    .mark { margin:0 0 10px; color:var(--signal); font:800 12px ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing:.16em; text-transform:uppercase; }
+    h1 { margin:0 0 10px; font-size:clamp(30px,4vw,44px); line-height:1; }
+    .claim { margin:0 0 28px; color:var(--steel); font-size:15px; max-width:760px; }
+    svg { width:100%; min-width:900px; display:block; border:1px solid rgba(15,17,23,.16); background:rgba(244,241,234,.9); }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="mark">R3DPR0XY FORGE MAP / SHOWCASE BOARD</p>
+    <h1>Portfolio Tools showcase board</h1>
+    <p class="claim">A public technical portfolio built to make mods, plugins, docs, examples, and release automation easy to inspect.</p>
+    <svg viewBox="0 0 1120 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="portfolio-board-title portfolio-board-desc">
+      <title id="portfolio-board-title">Portfolio Tools Showcase Board</title>
+      <desc id="portfolio-board-desc">Showcase Board map for the Portfolio Tools repository with central project value, feature groups, stack, proof, and delivery outputs.</desc>
+      <rect width="1120" height="560" fill="#f4f1ea"/>
+      <rect x="380" y="168" width="360" height="184" rx="12" fill="rgba(226,61,40,.08)" stroke="#e23d28" stroke-width="1.8"/>
+      <rect x="416" y="196" width="128" height="20" rx="3" fill="#e23d28"/>
+      <text x="480" y="211" fill="#fffaf0" font-size="9" font-weight="900" font-family="monospace" text-anchor="middle">PROJECT VALUE</text>
+      <text x="560" y="252" fill="#0f1117" font-size="24" font-weight="900" text-anchor="middle">Portfolio Tools</text>
+      <text x="560" y="284" fill="#475569" font-size="12" font-family="monospace" text-anchor="middle">mods + plugins + docs + automation</text>
+      <text x="560" y="308" fill="#475569" font-size="12" font-family="monospace" text-anchor="middle">organized as public proof of work</text>
+
+      <g><rect x="72" y="72" width="272" height="144" rx="10" fill="#fffaf0" stroke="#0f1117"/><rect x="96" y="96" width="72" height="18" rx="2" fill="#0f1117"/><text x="132" y="109" fill="#f4f1ea" font-size="8" font-weight="900" font-family="monospace" text-anchor="middle">FEATURES</text><text x="208" y="140" fill="#0f1117" font-size="16" font-weight="900" text-anchor="middle">Project library</text><text x="208" y="166" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">Kagerov / LootPanel / Betterchat</text><text x="208" y="184" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">MPersonagem / CreditsRewards</text></g>
+      <g><rect x="776" y="72" width="272" height="144" rx="10" fill="#fffaf0" stroke="#0f1117"/><rect x="800" y="96" width="56" height="18" rx="2" fill="#0f1117"/><text x="828" y="109" fill="#f4f1ea" font-size="8" font-weight="900" font-family="monospace" text-anchor="middle">STACK</text><text x="912" y="140" fill="#0f1117" font-size="16" font-weight="900" text-anchor="middle">Java build lane</text><text x="912" y="166" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">Gradle / Maven / Fabric / Paper</text><text x="912" y="184" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">GitHub Actions</text></g>
+      <g><rect x="72" y="344" width="272" height="144" rx="10" fill="#fffaf0" stroke="#475569"/><rect x="96" y="368" width="56" height="18" rx="2" fill="#475569"/><text x="124" y="381" fill="#f4f1ea" font-size="8" font-weight="900" font-family="monospace" text-anchor="middle">PROOF</text><text x="208" y="412" fill="#0f1117" font-size="16" font-weight="900" text-anchor="middle">Build verification</text><text x="208" y="438" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">CI matrix + artifact uploads</text><text x="208" y="456" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">release notes + changelog</text></g>
+      <g><rect x="776" y="344" width="272" height="144" rx="10" fill="rgba(0,166,166,.08)" stroke="#00a6a6"/><rect x="800" y="368" width="72" height="18" rx="2" fill="#00a6a6"/><text x="836" y="381" fill="#fffaf0" font-size="8" font-weight="900" font-family="monospace" text-anchor="middle">DELIVERY</text><text x="912" y="412" fill="#0f1117" font-size="16" font-weight="900" text-anchor="middle">Public showcase</text><text x="912" y="438" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">README / case studies / Forge Maps</text><text x="912" y="456" fill="#475569" font-size="10" font-family="monospace" text-anchor="middle">skills/r3dpr0xy-forge-maps</text></g>
+
+      <path d="M344 144 H380" stroke="#475569" stroke-width="2"/><path d="M740 144 H776" stroke="#475569" stroke-width="2"/><path d="M344 416 H380" stroke="#475569" stroke-width="2"/><path d="M740 416 H776" stroke="#00a6a6" stroke-width="2"/>
+      <rect x="72" y="520" width="976" height="28" rx="4" fill="rgba(15,17,23,.06)" stroke="#d7d1c5"/>
+      <text x="96" y="539" fill="#475569" font-size="10" font-family="monospace">public repo</text>
+      <text x="220" y="539" fill="#475569" font-size="10" font-family="monospace">MIT where applicable</text>
+      <text x="424" y="539" fill="#475569" font-size="10" font-family="monospace">English + Portuguese docs</text>
+      <text x="672" y="539" fill="#475569" font-size="10" font-family="monospace">R3DPR0XY identity system</text>
+    </svg>
+  </main>
+</body>
+</html>

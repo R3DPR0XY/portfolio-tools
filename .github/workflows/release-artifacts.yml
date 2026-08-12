@@ -1,6 +1,9 @@
 name: Release Artifacts
 
 on:
+  push:
+    tags:
+      - "v*"
   release:
     types: [published]
   workflow_dispatch:
@@ -55,16 +58,26 @@ jobs:
           find plugins -path '*/target/*.jar' -exec cp {} dist/ \;
           ls -la dist
 
+      - name: Package Forge Maps skill
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME:-manual}"
+          zip -r "dist/r3dpr0xy-forge-maps-${version}.zip" \
+            skills/r3dpr0xy-forge-maps \
+            docs/forge-maps \
+            docs/release-notes-v0.1.0.md \
+            CHANGELOG.md
+
       - name: Upload workflow artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: release-jars
-          path: dist/*.jar
+          name: release-artifacts
+          path: dist/*
           if-no-files-found: error
 
       - name: Attach jars to GitHub release
-        if: github.event_name == 'release'
+        if: github.event_name == 'release' || startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/*.jar
-
+          files: dist/*

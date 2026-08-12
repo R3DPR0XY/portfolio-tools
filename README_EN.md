@@ -65,6 +65,20 @@ Before moving any file into this repository:
 - Configuration packages and examples for custom systems.
 - Documentation focused on installation, usage, and maintenance.
 - Organization designed for a public portfolio.
+- **R3DPR0XY Forge Maps:** an original format for turning technical projects into visual showcases.
+
+## R3DPR0XY Forge Maps
+
+Forge Maps is a custom format for explaining technical projects with a recognizable R3DPR0XY identity. Instead of generic diagrams, the maps use four structures:
+
+| Map | Use |
+| --- | --- |
+| Release Rail | Pipelines, builds, packaging, and releases. |
+| Runtime Core | Paper plugins and server systems at runtime. |
+| Mod Circuit | Fabric mods, entrypoints, mixins, screens, assets, and final JAR output. |
+| Showcase Board | Public project snapshots for READMEs, portfolios, and release notes. |
+
+See examples in [docs/forge-maps](docs/forge-maps).
 
 ## Resume And Case Studies
 
