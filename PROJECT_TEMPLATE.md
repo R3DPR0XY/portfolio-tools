@@ -1,5 +1,7 @@
 # Nome do Projeto
 
+[English version](PROJECT_TEMPLATE_EN.md)
+
 Resumo curto do que o projeto faz e por que ele é útil.
 
 ## Problema

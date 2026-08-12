@@ -1,5 +1,7 @@
 # LootPanel
 
+[English version](README_EN.md)
+
 Base de mod Fabric client-side para Minecraft Java 1.21.8.
 
 ## O que ja esta "feito"

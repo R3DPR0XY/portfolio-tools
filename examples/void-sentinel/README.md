@@ -1,5 +1,7 @@
 # Void Sentinel Pack
 
+[English version](README_EN.md)
+
 Classe tank/control inspirada no estilo Watcher's Shield, mas mais agressiva: escudos orbitais, puxao, stun, mitigacao, cura, dano em area e ultimate de colapso.
 
 Tema visual: preto, vermelho e branco.

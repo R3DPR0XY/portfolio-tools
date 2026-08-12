@@ -1,10 +1,12 @@
-# DraxxLink Portfolio Tools
+# R3DPR0XY Portfolio Tools
+
+[English version](README_EN.md)
 
 Portfólio técnico com mods, plugins, scripts, automações e experimentos criados para resolver problemas reais, acelerar fluxos de trabalho e demonstrar capacidade prática de desenvolvimento.
 
 ## Sobre
 
-Sou o **DraxxLink**, criador focado em ferramentas práticas, automações, mods, plugins e soluções técnicas que transformam ideias em projetos funcionais. Este portfólio reúne trabalhos organizados para mostrar raciocínio técnico, cuidado com documentação e atenção à utilidade real de cada entrega.
+Sou o **R3DPR0XY**, criador focado em ferramentas práticas, automações, mods, plugins e soluções técnicas que transformam ideias em projetos funcionais. Este portfólio reúne trabalhos organizados para mostrar raciocínio técnico, cuidado com documentação e atenção à utilidade real de cada entrega.
 
 ## Visão geral
 

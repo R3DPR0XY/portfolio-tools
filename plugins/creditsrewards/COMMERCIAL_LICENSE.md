@@ -1,6 +1,8 @@
 # Licença Comercial - CreditsRewards
 
-Copyright (c) 2026 DraxxLink
+[English version](COMMERCIAL_LICENSE_EN.md)
+
+Copyright (c) 2026 R3DPR0XY
 
 Este projeto é disponibilizado publicamente apenas como vitrine técnica. O código-fonte, builds, configurações completas e versões utilizáveis do plugin CreditsRewards não estão licenciados pela licença MIT deste repositório.
 

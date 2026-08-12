@@ -1,5 +1,7 @@
 # MPersonagem
 
+[English version](README_EN.md)
+
 Plugin Paper para sistema de personagens de roleplay com nome, sobrenome, idade, altura, genero, descricao, menus, atributos por altura e suporte a PlaceholderAPI/TAB.
 
 ## Requisitos

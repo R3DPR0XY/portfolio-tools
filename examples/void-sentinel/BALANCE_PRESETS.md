@@ -1,5 +1,7 @@
 # Balance Presets
 
+[English version](BALANCE_PRESETS_EN.md)
+
 ## PvE Dungeon
 
 Use quando a classe for para dungeon, boss fight e servidor RPG.

@@ -1,5 +1,7 @@
 # Automations
 
+[English version](README_EN.md)
+
 Automações e fluxos recorrentes documentados.
 
 ## Formato recomendado

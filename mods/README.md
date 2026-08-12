@@ -1,5 +1,7 @@
 # Mods
 
+[English version](README_EN.md)
+
 Mods e customizações reutilizáveis.
 
 ## Projetos

@@ -33,6 +33,7 @@ temp/
 
 # Dependencies and build outputs
 node_modules/
+.gradle/
 dist/
 build/
 out/

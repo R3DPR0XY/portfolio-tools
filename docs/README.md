@@ -1,5 +1,7 @@
 # Docs
 
+[English version](README_EN.md)
+
 Guias, notas técnicas, decisões e referências do portfólio.
 
 Use esta pasta para explicar arquitetura, escolhas técnicas, aprendizados e processos.

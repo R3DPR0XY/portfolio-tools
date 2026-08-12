@@ -1,5 +1,7 @@
 # Plugins
 
+[English version](README_EN.md)
+
 Plugins, extensões e integrações reutilizáveis.
 
 ## Projetos

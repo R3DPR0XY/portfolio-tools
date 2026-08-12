@@ -1,5 +1,7 @@
 # Testing Checklist
 
+[English version](TESTING_EN.md)
+
 Rode os reloads:
 
 ```text

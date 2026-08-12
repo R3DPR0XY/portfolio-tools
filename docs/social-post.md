@@ -8,7 +8,7 @@ O repositorio inclui mods Fabric, plugins Paper, interfaces client-side, sistema
 
 Meu foco e transformar ideias em ferramentas funcionais: codigo organizado, estrutura clara, documentacao de uso e cuidado antes de publicar.
 
-Portfolio: https://github.com/DraxxLink/portfolio-tools
+Portfolio: https://github.com/R3DPR0XY/portfolio-tools
 
 ## Versao completa
 
@@ -34,4 +34,4 @@ Tecnologias usadas:
 - YAML / JSON
 - Git e GitHub
 
-Portfolio: https://github.com/DraxxLink/portfolio-tools
+Portfolio: https://github.com/R3DPR0XY/portfolio-tools

@@ -1,5 +1,7 @@
 # Changelog
 
+[English version](CHANGELOG_EN.md)
+
 Todas as mudanças relevantes deste portfólio serão documentadas aqui.
 
 ## [Inicial]

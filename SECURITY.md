@@ -1,5 +1,7 @@
 # Segurança
 
+[English version](SECURITY_EN.md)
+
 Antes de publicar qualquer código neste repositório, revise se existe informação sensível.
 
 ## Nunca publicar

@@ -1,4 +1,6 @@
-# Olá, eu sou o DraxxLink
+# Olá, eu sou o R3DPR0XY
+
+[English version](PROFILE_README_EN.md)
 
 Crio mods, plugins, scripts e automações com foco em utilidade real, organização e aprendizado contínuo.
 
@@ -30,4 +32,4 @@ Gosto de projetos que sejam simples de entender, fáceis de executar e bem docum
 
 Este perfil está sendo organizado a partir do meu portfólio técnico:
 
-`DraxxLink Portfolio Tools`
+`R3DPR0XY Portfolio Tools`

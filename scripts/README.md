@@ -1,5 +1,7 @@
 # Scripts
 
+[English version](README_EN.md)
+
 Scripts utilitários para automação, manutenção e produtividade.
 
 ## Formato recomendado

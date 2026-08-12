@@ -1,5 +1,7 @@
 # Void Sentinel Design
 
+[English version](DESIGN_EN.md)
+
 ## Fantasia
 
 Um guardiao cosmico que luta com quatro escudos orbitais. Ele vence controlando distancia, juntando inimigos e convertendo defesa em explosao.

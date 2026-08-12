@@ -1,5 +1,7 @@
 # CreditsRewards
 
+[English version](README_EN.md)
+
 Plugin Paper comercial para servidores Minecraft com sistema de créditos, missões, recompensas, lojas via NPC e persistência em banco de dados.
 
 ## Status

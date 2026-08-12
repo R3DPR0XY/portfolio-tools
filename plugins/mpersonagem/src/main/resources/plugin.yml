@@ -1,8 +1,8 @@
 name: MPersonagem
 version: '${project.version}'
-main: com.draxx.charactersystem.CharacterSystemPlugin
+main: com.r3dpr0xy.charactersystem.CharacterSystemPlugin
 api-version: '1.21'
-author: Draxx
+author: R3DPR0XY
 softdepend:
   - PlaceholderAPI
   - TAB

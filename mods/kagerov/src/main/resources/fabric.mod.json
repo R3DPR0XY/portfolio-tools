@@ -6,16 +6,16 @@
   "description": "Nem todo poder nasce do combate.\nAlguns comecam com uma ideia... e ganham forma atraves da palavra.",
   "icon": "assets/kagerov/icon.png",
   "authors": [
-    "DraxxLink"
+    "R3DPR0XY"
   ],
   "license": "MIT",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.draxxlink.kagerov.Kagerov"
+      "com.r3dpr0xy.kagerov.Kagerov"
     ],
     "client": [
-      "com.draxxlink.kagerov.client.KagerovClient"
+      "com.r3dpr0xy.kagerov.client.KagerovClient"
     ]
   },
   "mixins": [

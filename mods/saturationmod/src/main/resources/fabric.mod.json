@@ -5,13 +5,13 @@
   "name": "Saturation Mod",
   "description": "Mantenha sua fome e saúde sempre cheias.",
   "authors": [
-    "DraxxLink"
+    "R3DPR0XY"
   ],
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.draxxlink.saturationmod.SaturationMod"
+      "com.r3dpr0xy.saturationmod.SaturationMod"
     ]
   },
   "depends": {

@@ -1,0 +1,13 @@
+package com.r3dpr0xy.kagerov.client.screen;
+
+import com.r3dpr0xy.kagerov.client.book.UniqueSkillPaletteBridge;
+import io.github.cottonmc.cotton.gui.client.CottonClientScreen;
+import net.minecraft.client.gui.screen.Screen;
+
+public class UniqueSkillTextPaletteScreen extends CottonClientScreen {
+    public UniqueSkillTextPaletteScreen(Screen parent, UniqueSkillPaletteBridge.Inserter inserter) {
+        super(new UniqueSkillTextPaletteGui());
+        UniqueSkillPaletteBridge.open(parent, inserter);
+    }
+}
+

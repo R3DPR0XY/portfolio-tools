@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.draxxlink.kagerov.mixin",
+  "package": "com.r3dpr0xy.kagerov.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "AbstractSignEditScreenMixin",
