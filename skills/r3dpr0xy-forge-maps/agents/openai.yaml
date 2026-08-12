@@ -1,0 +1,5 @@
+interface:
+  display_name: "R3DPR0XY Forge Maps"
+  short_description: "Branded maps for technical showcases."
+  default_prompt: "Use $r3dpr0xy-forge-maps to create a public-facing technical showcase map for this project."
+  brand_color: "#e23d28"
