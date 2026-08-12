@@ -1,4 +1,4 @@
-﻿package com.daich.betterchat;
+package com.daich.betterchat;
 
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
